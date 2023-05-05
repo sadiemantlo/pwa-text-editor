@@ -11,7 +11,7 @@ To install all the dependencies run npm i in the terminal. To intall the app, si
 
 ## **Usage**
 
-To use this app you just need to start typing. All notes will be saved to idb wwhen then user 'loses foucus'. Anytime the user clikcs anywhere on the DOM when they are no longer typing, the data will be saved.
+To use this app you just need to start typing. All notes will be saved to idb when the user 'loses foucus'. Anytime the user clicks anywhere on the DOM when they are no longer typing, the data will be saved.
 
 
 ![here's and image](./client/src/images/jate.png)
