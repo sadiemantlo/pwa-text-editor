@@ -20,14 +20,14 @@ module.exports = () => {
     plugins: [
       // HTML webpack plugin
       new HtmlWebpackPlugin({
-        template: './src/index.html',
+        template: '/index.html',
         title: 'Progressive Web Application'
       }),
 
       // Inject custom service worker 
       new InjectManifest({
-        swSrc: './src/js/sw.js',
-        swDest: 'sw.js',
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
       }),
 
       // creates manifest.json
@@ -36,11 +36,11 @@ module.exports = () => {
         injeect: true,
         name: 'Progressive Web Application',
         short_name: 'PWA',
-        description: 'A simple PWA',
+        description: 'A note taking application',
         background_color: '#ffffff',
         theme_color: '#ffffff',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
